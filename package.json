@@ -2,6 +2,8 @@
   "name": "portfolio-website",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://wasanasandaruwani.github.io/Portfolio-w-s-weerasinghe
+",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -34,4 +36,12 @@
     "typescript-eslint": "^8.39.1",
     "vite": "^7.1.2"
   }
+  "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
 }
